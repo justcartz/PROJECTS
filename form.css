@@ -1,0 +1,62 @@
+body{
+    background-image: url(wiz\(0\).jpg);
+    background-size: cover;
+    background-color:rgba(134, 9, 70,0.6) ;
+    background-blend-mode:darken;
+    font-size:16px ;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0 ;
+    color: azure;
+}
+form{
+    max-width:700px ;
+    min-width: 250px;
+    margin:0 auto ;
+    background-color: rgba(46, 4, 48, 0.6);
+    padding: 20px;
+    border-radius:10px ;
+   
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.water,select,textarea{
+    display: block;
+    width: 80%;
+    background-color: rgba(46, 4, 48, 0.6);
+    color: azure;
+    padding: 10px;
+    background-blend-mode: darken;
+    border-radius: 20px;
+}
+
+fieldset{
+    width: 80%;
+   margin: 0.5rem 0;
+   
+}
+
+button{
+    width: 20%;
+    margin: 0.5rem 40%;
+    background-color:rgba(212, 94, 194, 0.8) ;
+    cursor: pointer;
+    padding: 10px;
+    color: azure;
+    border-radius:5px ;
+    
+}
+
+button:hover{
+    background-color:azure;
+    border-radius: 5px;
+}
+
+
+::placeholder{
+    color: white;
+}
+
+

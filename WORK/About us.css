@@ -1,0 +1,71 @@
+.combined-section{
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.section-img{
+    border-radius: 2rem;
+}
+
+.outlined-packages{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5rem ;
+    align-items: center;
+    grid-gap: 100px;
+}
+
+
+.main-services{
+    text-align: center;
+}
+
+.premium-services{
+    text-align: center;
+
+}
+.content-services{
+    text-align: center;
+   
+}
+
+
+.outlined-partners{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+}
+
+.attraction{
+    text-align: center;
+}
+
+.bbg{
+    text-align: center;
+}
+
+.aiygeezsons{
+    text-align: center;
+}
+
+.dekash{
+    text-align: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:1300px){
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+   

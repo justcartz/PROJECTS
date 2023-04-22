@@ -1,0 +1,212 @@
+
+#product-overview {
+    background-image: url(/images/IMG-20220806-WA0028.jpg);
+    width: auto;
+    height: 62.5rem;
+    padding: 0.9rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#product-overview h1{
+    position: relative;
+    top: 3rem;
+
+}
+@media(min-width : 40rem){
+    #product-overview{
+        font-size: 2rem;
+    } 
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+
+.plan{
+    background-color:  #d5ffdc;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    list-style: none;
+    width: 100%;
+    
+}
+
+.plan__title{
+    color: #38572f;
+}
+.plan__price{
+    color: rgb(130, 118, 118);
+}
+
+.plan ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.plan__features{
+    margin: 0.5rem 0;
+}
+
+
+.plan--highlighted{
+    background-color: #19b84c;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px rgba(7, 1, 14, 0.2);
+}
+
+
+.plan--highlighted .plan__title{
+    color: #fff;
+}
+.plan--highlighted .plan__price{
+    color: rgb(40, 36, 36);
+}
+.plan__annotation{
+    background-color: #fff;
+    color: #19b84c;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 2px rgba(7, 1, 14, 0.2);
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+@media(min-width:40rem){
+    .plan__list{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+       
+    
+    }
+    
+    .plan{
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        min-height: 13rem;
+        max-width: 25rem ;
+
+    }
+}
+
+#key-features{
+    background-color: #ff1b68;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+
+#key-features > .section-title{
+    color: #fff;
+    margin: 2rem;
+
+}
+.key-feature__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+.key-feature{
+    display: block;
+    width: 100%;
+    
+    
+}
+
+@media(min-width:40rem){
+    .key-feature{
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+        
+    }
+}
+
+.key-feature__image{
+    background-color: #ffdece;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid #100e0eca;
+    padding: 1.5rem;
+}
+
+
+.key-feature__description{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.modal {
+    position: fixed;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out , transform 500ms ease-out;
+    transform: translateY(-3rem);
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .class__title{
+    text-align: center;
+  }
+  
+  .modal__title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+  }
+  
+  .modal__actions {
+    text-align: center;
+  }
+  
+  .modal__action {
+    border: 1px solid #0e4f1f;
+    background: #0e4f1f;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .modal__action:hover,
+  .modal__action:active {
+    background: #2ddf5c;
+    border-color: #2ddf5c;
+  }
+  
+  .modal__action--negative {
+    background: red;
+    border-color: red;
+  }
+  
+  .modal__action--negative:hover,
+  .modal__action--negative:active {
+    background: #ff5454;
+    border-color: #ff5454;
+  }
+
+
+

@@ -1,0 +1,13 @@
+.text-warning{
+    background-image: url(images/IMG-20220806-WA0028.jpg);
+    background-size: 100% 100%;
+    width: auto;
+    height: 63rem;
+    background-position: center;
+    
+  
+}
+
+ul{
+    list-style: none;
+}

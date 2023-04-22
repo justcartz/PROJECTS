@@ -1,0 +1,74 @@
+.form{
+    margin:auto;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    color: black;
+    font-size: 1.2rem;
+    width: 500px;
+    padding: 1rem ;
+    padding-bottom: 4rem; 
+    }
+    label{
+        display: block;
+        margin: 0.5rem 0;
+        font-size: 1.3rem;
+        color: rgba(0, 0, 0, 0.7);
+       
+     
+    }
+    
+    .email{
+        display: block;
+        margin: 0.5rem 0;
+        border-radius: 0.8rem;
+        width: 80%;
+        border: 1px groove rgba(0, 0, 0, 0.8);
+        
+    }
+    .password{
+        display: block;
+        margin: 0.5rem 0;
+        border-radius: 0.8rem;
+        width: 80%;
+        border: 1px groove rgba(0, 0, 0, 0.8);
+        
+    }
+    
+    .secure{
+        font-size: 16px;
+    }
+    .hr{
+        margin: 2rem 0;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+
+    footer{
+        display: flex;
+        justify-content: flex-start;
+        gap: 50px;
+        padding: 0;
+    }
+    
+    footer a{
+        list-style-type: none;
+        text-decoration: none;
+        color: grey;
+    }
+    footer a:hover,
+    footer a:active{
+        color: white;
+    }    
+
+
+.forget{
+    list-style-type: none;
+    text-decoration: none;
+    color: grey; 
+}
+
+.forget:hover,
+.forget:active{
+    color: white;
+}

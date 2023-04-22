@@ -1,0 +1,110 @@
+:root{
+    
+--Marineblue: hsl(213, 96%, 18%);
+--Purplishblue: hsl(243, 100%, 62%);
+--Pastelblue: hsl(228, 100%, 84%);
+--Lightblue: hsl(206, 94%, 87%);
+--Strawberryred: hsl(354, 84%, 57%);
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+}
+
+.main-nav{
+    background-color: rgba(0,0,0,0.864);
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.main-nav > a{
+    text-decoration-line: none;
+    color: #000000;
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    color:grey;
+       
+}
+span{
+    color: tomato;
+}
+.main-nav ul{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 5rem;
+}
+
+.main-nav ul li a{
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a:active{
+    color: grey;
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+    transition: 500ms;
+}
+
+
+.toggle-button {
+    width: 3rem;
+    background:  transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+    vertical-align: middle;
+  }
+  
+  .toggle-button:focus {
+    outline: none;
+  }
+  
+  .toggle-button__bar {
+    width: 100%;
+    height: 0.2rem;
+    background: black;
+    display: block;
+    margin: 0.6rem 0;
+  }
+  
+
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+footer a{
+    list-style-type: none;
+    text-decoration: none;
+    color: grey;
+}
+footer a:hover,
+footer a:active{
+    color: white;
+}
+
+@media (max-width:640px){
+    .lol{
+        opacity: 0;
+    }
+}

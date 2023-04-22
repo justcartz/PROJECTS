@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+
+<h1>Creating a form</h1>
+<form  action="">
+    <label for="First">First Name <input class="water" type="text" name="name" id="name"></label>
+    <label for="Last">Last Name <input class="water" type="text" id="Last" name="Last" ></label>
+    <label for="phone">Phone Number <input class="water" type="tel" id="Phone" name="Phone" ></label>
+    <label for="Email">Email <input class="water" type="email" id="Email" name="Email" ></label>
+    <label for="dob">Date Of Birth<input class="water" type="date" id="dob" name="dob" ></label>
+<fieldset>
+  <legend>Gender</legend>
+    <label for="Gender"></label>
+    <label for="male">male</label><input type="radio" id="male" name="gender">
+    <label for="female">female</label><input type="radio" id="female" name="gender">
+    <label for="male">Other</label><input type="radio" id="male" name="gender">
+</fieldset>
+<fieldset>
+  <legend>Subjects</legend>
+  <label for="math">MATHEMATICS</label><input type="checkbox" id="math" name="sub">
+  <label for="eng">English</label><input type="checkbox" id="eng" name="sub" checked>
+  <label for="bio">BIOLOGY</label><input type="checkbox" id="bio" name="sub">
+  <label for="phy">PHYSICS</label><input type="checkbox" id="phy" name="sub">
+  <label for="chem">CHEMISTRY</label><input type="checkbox" id="chem" name="sub">
+</fieldset>
+
+<fieldset>
+  <label for="waec">Attach Your Waec Result</label><input type="file" id="waec" name="waec">
+  <label for="pass">Create a password</label><input class="water" type="password" id="pass" name="pass">
+  <label for="zip">ZIP CODE</label><input class="water" type="number" id="zip" name="zip">
+  <label for="nin">NIN</label><input class="water" type="number" id="nin" name="nin">
+  <label for="country">Country</label>
+  <select name="country" id="Country">
+    <option value="">Select Your Country</option>
+    <option value="Nigeria">Nigeria</option>
+    <option value="Canada">Canada</option>
+    <option value="Ghana">Ghana</option>
+    <option value="UK">UK</option>
+    <option value="SA">South Africa</option>
+    <option value="USA">USA</option>
+    <option value="italy">italy</option>
+    <option value="Senegal">Senegal</option>
+    <option value="Egypt">Egypt</option>
+    <option value="Spain">Spain</option>
+  </select>
+</fieldset><br><textarea name="" id="feld" cols="30" rows="3" placeholder="please put your address here"></textarea>
+<button>Click here></button>
+
+</form>   
+
+
+</body>
