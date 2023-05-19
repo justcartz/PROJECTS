@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0;
+}
+
+button {
+	font-size: 2em;
+	padding: 10px 20px;
+	margin: 10px;
+}

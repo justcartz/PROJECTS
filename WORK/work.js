@@ -21,7 +21,7 @@ var quoInterval = setInterval(function(){
 if(y == "1000"){
     clearInterval(quoInterval)
 }
-} ,100)
+} ,1000)
 
 
 var dev = document.getElementById("invest")
@@ -33,7 +33,7 @@ var devInterval = setInterval(function(){
 if(z == "296"){
     clearInterval(devInterval)
 }
-} ,100)
+} ,1000)
 
 
 var award = document.getElementById("award")
@@ -45,4 +45,4 @@ var awardInterval = setInterval(function(){
 if(a == "19"){
     clearInterval(awardInterval)
 }
-} ,100)
+} ,1000)

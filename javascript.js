@@ -531,8 +531,7 @@ console.log(profile.occupation)
 
 
 var guys = ["guys1", "guys2", "guys3"]
-var ladies = [
-    'atinuke','mariah','shola','rebecca','vivian','emmanuella']
+var ladies = ['atinuke','mariah','shola','rebecca','vivian','emmanuella']
 
 console.log(guys.concat(ladies))
 //array methods
@@ -544,16 +543,8 @@ console.log(guys.concat(ladies))
 console.log(guys.splice("governor"))
 
 
-
-
-var text =" "
-
-guys.forEach(justin)
-function justin(value,index,array){
-    text+="My name is " + value 
-} 
-console.log(text)
-
-
-
-
+var text =" justin loves"
+ladies.map(function(l){
+    const y = "justin loves" + l
+    return ladies
+})
